@@ -3,8 +3,9 @@ interface Avatar {
 }
 
 interface FromToObject {
-  id: string;
+  id?: string;
   type: string;
+  user_id?: string;
 }
 
 interface Owner {
